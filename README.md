@@ -265,13 +265,19 @@ ________________________________________________________________________________
 ![residual](https://github.com/user-attachments/assets/f53a3cb9-4600-4976-899a-608dcba96052)
 
 
+________________________________________________________________________________________________________________________________________________________________________________
 
+🎯 Goals and Impact
 
+Social Impact: Contribute to air quality monitoring and public health awareness.
 
+Scalability: The DBSCAN model can be expanded to include data from more cities worldwide.
+_______________________________________________________________________________________________________________________________________________________________________________
 
+🌿 Air Pollution Monitoring System with Real-Time Insights 🌍
 
+The development of an Air Pollution Monitoring System integrates real-time data using machine learning concepts. The system leverages the Density-Based Spatial Clustering of Applications with Noise (DBSCAN) algorithm to predict air quality and detect pollution trends. By utilizing real-time data, the system ensures high accuracy in identifying and monitoring pollution patterns, enhancing awareness and response strategies.
 
-![dbscanlr](https://github.com/user-attachments/assets/0e2d06c3-8a37-4b0a-b2a9-50ff592f45ec)
 
 
 
