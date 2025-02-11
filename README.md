@@ -1,6 +1,6 @@
-🌍 Air Pollution Monitoring Using DBSCAN Algorithm 🌱
+**🌍 Air Pollution Monitoring Using DBSCAN Algorithm 🌱**
 ____________________________________________________________________________________________________________________________________________________________________________________
-📚 Overview
+**📚 Overview**
 
 Welcome to the Air Pollution Monitoring Using DBSCAN Algorithm project!
 
@@ -16,7 +16,7 @@ Identify regions with severe air pollution
 
 The project categorizes areas based on their pollution levels, helping to highlight areas in need of immediate attention.
 ____________________________________________________________________________________________________________________________________________________________________________________
-🚀 Features
+**🚀 Features**
 
 ✅ Air Quality Prediction
 
@@ -46,7 +46,7 @@ Detects abnormal data points or outliers using DBSCAN.
 
 Helps isolate regions with unusual pollution levels.
 ________________________________________________________________________________________________________________________________________________________________________________
-🧑‍💻 Technologies Used
+**🧑‍💻 Technologies Used**
 
 This project is implemented using several powerful tools and libraries:
 
@@ -66,7 +66,7 @@ numpy ➗: Supports numerical operations on large datasets.
 
 seaborn 🌈: Generates aesthetically pleasing data visualizations.
 ___________________________________________________________________________________________________________________________________________________________________________________
-🗂️ Dataset
+**🗂️ Dataset**
 
 The dataset used in this project contains air quality data from various cities.
 
@@ -86,16 +86,16 @@ CO: Carbon Monoxide concentration.
 
 Air Quality Index (AQI): A numerical value representing overall air quality.
 
-🔗 Dataset Link
+**🔗 Dataset Link**
 
 Access the dataset here:  https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
 ____________________________________________________________________________________________________________________________________________________________________________
 
-DBSCAN Algorithm 🌍
+**DBSCAN Algorithm 🌍**
 
 DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular clustering algorithm used to group together closely packed data points while identifying outliers as noise. Unlike traditional clustering methods like k-means, DBSCAN does not require you to specify the number of clusters ahead of time. It is particularly useful for tasks involving geospatial data, anomaly detection, and image processing.
 
-How DBSCAN Works 🧠
+**How DBSCAN Works 🧠**
 
 DBSCAN operates by identifying regions of high point density and separating them from areas with lower densities. It classifies each point in the dataset into one of three categories:
 
@@ -111,7 +111,7 @@ Noise Points 🚫
 
 Noise points, also referred to as outliers, are points that do not meet the conditions to be classified as core or border points. These points are considered isolated from all clusters.
 
-Key Parameters ⚙️
+**Key Parameters ⚙️**
 
 DBSCAN relies on two main parameters that you must define:
 
@@ -123,7 +123,7 @@ MinPts (Minimum Points):
 
 MinPts refers to the minimum number of points required to form a dense region (cluster). If a point has MinPts or more neighbors within a distance of ε, it is a core point. A typical value for MinPts is ≥ 4. For datasets with noise, a larger value of MinPts may be appropriate.
 
-Step-by-Step DBSCAN Process 📝
+**Step-by-Step DBSCAN Process 📝**
 
 Initialize the Process:
 
@@ -145,7 +145,7 @@ Repeat:
 
 The algorithm repeats the process for all unvisited points until all points are either assigned to a cluster or marked as noise.
 
-Advantages of DBSCAN 🎉
+**Advantages of DBSCAN 🎉**
 
 Does Not Require the Number of Clusters:
 
@@ -163,7 +163,7 @@ Scalable:
 
 DBSCAN performs well with large datasets, particularly when paired with efficient spatial indexing structures like KD-trees or R-trees.
 
-Challenges of DBSCAN ⚠️
+**Challenges of DBSCAN ⚠️**
 
 Sensitivity to Parameters:
 
@@ -177,7 +177,7 @@ Computational Complexity:
 
 DBSCAN’s time complexity can be higher for large datasets, especially in high-dimensional spaces. The time complexity is approximately O(n log n) with efficient indexing, but can be worse without such techniques.
 
-Applications of DBSCAN 🏙️
+**Applications of DBSCAN 🏙️**
 
 DBSCAN has broad applications across multiple domains due to its flexibility and ability to detect arbitrary-shaped clusters:
 
@@ -213,14 +213,14 @@ MinPts (Minimum Points):
 
 A common rule of thumb is to set MinPts to d + 1, where d is the dimensionality of the dataset. For example, for 2D data, MinPts could be set to 4.
 
-Conclusion 📚
+**Conclusion 📚**
 
 DBSCAN is a powerful clustering algorithm capable of identifying clusters of arbitrary shape while handling noise and outliers. Its main advantage lies in its ability to automatically find the number of clusters based on density rather than predefined cluster numbers. However, it requires careful tuning of the ε and MinPts parameters, and it can struggle with datasets containing clusters of varying densities.
 
 Despite these challenges, DBSCAN remains a popular choice for a variety of applications in fields like geospatial analysis, anomaly detection, and image segmentation.
 
  
- 🚀 Unleash the Power of DBSCAN! 🌟
+**🚀 Unleash the Power of DBSCAN! 🌟**
 
 Ready to dive deep into **DBSCAN Clustering** and explore its potential? Check out this amazing **Beginner's Guide** to DBSCAN by Sachin Soni on Medium! 📚
 
@@ -235,5 +235,46 @@ Let’s get clustering! 💪
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
-📸 SCREENSHOTS
+**📸 SCREENSHOTS**
+
+
+![aqi data](https://github.com/user-attachments/assets/b1c388c4-be2a-4e62-bfd6-f63552abf24c)
+
+![accuracy](https://github.com/user-attachments/assets/dabf9414-38d4-43fc-9e3a-0d04b4481952)
+
+![dbscancluster](https://github.com/user-attachments/assets/f5cfb57a-5cd0-435d-9d9a-115c646531ea)
+
+
+![error](https://github.com/user-attachments/assets/23bab577-c388-4e3c-864a-cfeee9ac0e9f)
+
+
+
+![modelacciuracy](https://github.com/user-attachments/assets/c8851bdd-5aa7-42f4-9cbd-bf62eabf6fad)
+
+
+
+![modelacciuracy](https://github.com/user-attachments/assets/3e48cb10-440a-4d60-bb56-6fa6fb1a693e)
+
+
+![noise](https://github.com/user-attachments/assets/8b5a7fad-8ce3-4132-8980-1d88b4c0b8d9)
+
+
+![residual](https://github.com/user-attachments/assets/86bdc37b-1249-4b2f-9e84-2608b50836db)
+
+
+![residual](https://github.com/user-attachments/assets/f53a3cb9-4600-4976-899a-608dcba96052)
+
+
+
+
+
+
+
+
+![dbscanlr](https://github.com/user-attachments/assets/0e2d06c3-8a37-4b0a-b2a9-50ff592f45ec)
+
+
+
+
+
 
