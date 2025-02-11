@@ -2,7 +2,9 @@
 
 📚 Overview
 
-  Welcome to the Air Pollution Monitoring Using DBSCAN Algorithm project! This project leverages the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm to monitor and predict air quality in various cities.
+        Welcome to the Air Pollution Monitoring Using DBSCAN Algorithm project! 
+
+This project leverages the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm to monitor and predict air quality in various cities.
 
 The goal is to analyze pollutant levels, predict air quality trends, and help identify regions where air pollution is particularly severe.
 
@@ -10,9 +12,11 @@ The project uses clustering to categorize areas based on their pollution levels,
 
 🚀 Features
 
- Air Quality Prediction: The project utilizes DBSCAN clustering to predict and categorize air quality levels in cities. Pollutants like PM2.5, PM10, CO, NO2, and more are used in the clustering process. 🌫️
+ Air Quality Prediction: The project utilizes DBSCAN clustering to predict and categorize air quality levels in cities. 
+                         Pollutants like PM2.5, PM10, CO, NO2, and more are used in the clustering process. 🌫️
 
- Accuracy Calculation: The system calculates the accuracy of predicted pollutant levels against actual values. This allows for evaluating the effectiveness of the model. ✅
+ Accuracy Calculation: The system calculates the accuracy of predicted pollutant levels against actual values.
+                      This allows for evaluating the effectiveness of the model. ✅
 
  Interactive Interface: The project provides an intuitive, interactive visualization of the data, making it easier to understand trends in pollution levels across cities. 📊
 
@@ -40,9 +44,11 @@ Libraries:
 
 🗂️ Dataset
 
-        The dataset used in this project contains air quality data from various cities.
-        This dataset includes measurements of pollutants like PM2.5, PM10, NO2, CO, and more, across different regions. 
-        These pollutants are critical for assessing air quality and public health.
+  The dataset used in this project contains air quality data from various cities.
+ 
+  This dataset includes measurements of pollutants like PM2.5, PM10, NO2, CO and more across different regions. 
+ 
+  These pollutants are critical for assessing air quality and public health.
 
 Sample columns in the dataset:
 
@@ -61,33 +67,4 @@ Air Quality Index (AQI): A numerical value that represents the overall air quali
 
 🔍 How DBSCAN Works
 
-        DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a powerful clustering algorithm used to find regions of high density in data.
-
-        It groups together closely packed points, marking points that are isolated as noise.
-
-        The algorithm does not require the user to specify the number of clusters beforehand.
-
-Key Concepts:
-
-  Core Points 🌟: These are points that have at least min_samples points within a specified radius (ε). These points are the backbone of the clusters.
-
-  Border Points 🚪: These are points that are within the neighborhood of a core point but do not have enough points to be core points themselves.
-
-  Noise Points (Outliers) 🚫: Points that do not belong to any cluster and are too far away from the core points.
-
-DBSCAN Parameters:
-
-  ε (epsilon) ➗: The maximum distance between two points to be considered as neighbors.
-
-  min_samples 🧑‍🤝‍🧑: The minimum number of points required to form a dense region (core point).
-
-  ![DBSCAN](https://github.com/user-attachments/assets/d02daf67-dbc4-4ac4-bad1-dea8e4c9e274)
-
-
-
-
-
-  
-
-
-
+https://medium.com/@sachinsoni600517/clustering-like-a-pro-a-beginners-guide-to-dbscan-6c8274c362c4
